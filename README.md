@@ -5,4 +5,3 @@
 #### Projeto feito com...
 - React
 - CSS Modules
-- Commitzen
