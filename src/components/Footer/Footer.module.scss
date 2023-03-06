@@ -1,0 +1,19 @@
+@import 'styles/variables';
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 232px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 120px;
+  gap: 16px;
+  background: $dark_coral;
+}
+
+.footer_text {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 40px;
+}
