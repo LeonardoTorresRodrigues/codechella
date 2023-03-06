@@ -1,4 +1,4 @@
-import banner from 'assets/banner_boasvindas.png';
+import banner from 'assets/banner_home.png';
 import style from './Banner.module.scss';
 
 export default function Banner() {
