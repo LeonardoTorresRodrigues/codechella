@@ -1,0 +1,66 @@
+@import 'styles/variables';
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 64px 120px;
+  width: 100vw;
+  height: 509px;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  gap: 48px;
+  width: 74.813rem;
+  height: 23.813rem;
+}
+
+.card_img {
+  width: 609px;
+  height: 381px;
+  border-radius: 16px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 24px;
+  width: 33.75rem;
+  height: 21.25rem;
+}
+
+.description_title {
+  font-family: 'Releway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: $grey;
+  width: 392px;
+  height: 76px;
+}
+
+.description_text {
+  width: 540px;
+  height: 160px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: $grey;
+}
