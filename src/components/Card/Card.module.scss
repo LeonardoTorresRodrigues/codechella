@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
   padding: 64px 120px;
-  width: 100vw;
+  width: 1440px;
   height: 509px;
 }
 
@@ -17,8 +17,8 @@
   align-items: center;
   padding: 0;
   gap: 48px;
-  width: 74.813rem;
-  height: 23.813rem;
+  width: 1197px;
+  height: 381px;
 }
 
 .card_img {
@@ -33,21 +33,21 @@
   align-items: center;
   padding: 0;
   gap: 24px;
-  width: 33.75rem;
-  height: 21.25rem;
+  width: 540px;
+  height: 340px;
 }
 
 .description_title {
   font-family: 'Releway';
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 2rem;
   line-height: 38px;
   display: flex;
   align-items: center;
   text-align: center;
   color: $grey;
-  width: 392px;
+  width: 24.5rem;
   height: 76px;
 }
 
@@ -57,7 +57,7 @@
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 40px;
   display: flex;
   align-items: center;
