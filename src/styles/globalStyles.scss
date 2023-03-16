@@ -1,4 +1,5 @@
 @import 'styles/variables';
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Raleway:wght@500;700;800&display=swap');
 
 * {
   box-sizing: border-box;
@@ -10,7 +11,7 @@
 }
 
 :root {
-  --caliatoga: 'Calistoga', cursive;
+  --calistoga: 'Calistoga', cursive;
   --raleway: 'Raleway', sans-serif;
 }
 
