@@ -5,7 +5,10 @@ export default function Banner() {
   return (
     <div className={style.container_banner}>
       <img className={style.banner} src={banner} alt="Boas-vindas ao #CodeChella2023!" />
-      <h2 className={style.text}>Boas-vindas ao #CodeChella2023!</h2>
-    </div>
+      <div className={style.text}>
+        <h2 >Boas-vindas ao</h2>
+        <h2>#CodeChella2023!</h2>
+      </div>
+    </div >
   );
 }

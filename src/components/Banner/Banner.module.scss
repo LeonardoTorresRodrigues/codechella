@@ -10,9 +10,10 @@
   & .banner {
     position: absolute;
     z-index: -1;
+    width: 100%;
   }
 
-  & .text {
+  & .text h2 {
     font-family: var(--calistoga);
     font-size: 2rem;
   }
@@ -20,7 +21,7 @@
   @media screen and (min-width: 768px) {
     height: 24rem;
 
-    & .text {
+    & .text h2 {
       font-size: 4rem;
     }
   }
