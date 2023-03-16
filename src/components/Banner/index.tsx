@@ -3,6 +3,9 @@ import style from './Banner.module.scss';
 
 export default function Banner() {
   return (
-    <img className={style.banner} src={banner} alt="Boas-vindas ao #CodeChella2023!" />
+    <div className={style.container_banner}>
+      <img className={style.banner} src={banner} alt="Boas-vindas ao #CodeChella2023!" />
+      <h2 className={style.text}>Boas-vindas ao #CodeChella2023!</h2>
+    </div>
   );
 }
