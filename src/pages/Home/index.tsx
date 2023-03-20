@@ -1,3 +1,4 @@
+import Banner from 'components/Banner';
 import Card from 'components/Card';
 import Footer from 'components/Footer';
 import Header from '../../components/Header';
@@ -8,6 +9,7 @@ export default function Home() {
     <div>
       <div className={style.menu}>
         <Header />
+        <Banner />
       </div>
       <main>
         <Card />
